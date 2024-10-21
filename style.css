@@ -1,0 +1,56 @@
+/* Scroll-to-Top Button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+body.dark-mode header {
+    background-color: #111;
+}
+
+body.dark-mode footer {
+    background-color: #111;
+}
+
+#darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#darkModeToggle:hover {
+    background-color: #555;
+}
+
+/* Collapsible sections */
+.container h2 {
+    cursor: pointer;
+}
+
+.container h2:hover {
+    color: #555;
+}
